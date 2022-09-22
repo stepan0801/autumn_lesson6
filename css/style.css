@@ -1,0 +1,254 @@
+@import "reset.css";
+/* =================шрифти===================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{font-family: "Lato";
+	font-style: normal;
+	font-size: 18px;
+}
+h1{
+	font-family: "Raleway";
+	font-weight: 900;
+	font-size: 40px;
+	max-width: 250px;
+	margin: 0 auto;
+	border: 1px solid blue;
+	background-color: blue;
+	color: aquamarine;
+	text-align: center;
+	margin-top: 10px;
+	opacity: 0.9;
+}
+/* ==================стилі фігма================ */
+.figma{
+	margin-bottom: 30px;
+}
+.container{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.top{
+	margin-top: 12px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 92px;
+}
+.glasses{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.vulputate{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.50;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.at-facilisi{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 48px;
+}
+.at-facilisi p{
+	margin-bottom: 28px;
+}
+.at-facilisi p+p{
+	margin-bottom: 0;
+}
+.lorem{
+font-weight: 700;
+font-size: 20px;
+line-height: 1.5;
+color: #1E212C;
+padding-left: 58px;
+margin-bottom: 48px;
+}
+.mauris{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 24px;
+}
+.list{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	padding-bottom: 24px;
+}
+.list li{
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+.list li +li+li+li{
+	margin-bottom: 0;
+}
+.foot{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+}
+/* ==================стилі bruce================ */
+
+.top-bruce p{
+	background-color: blue;
+	color: yellow;
+	border: 2px solid black;
+	max-width: 400px;
+	line-height: 1.4;
+	margin: 0 0 25px 15px;
+}
+.top-bruce img{
+	border-radius: 50%;
+	margin:0 0 35px 50px;
+	width: 200px;
+	height: 200px;
+}
+.about-list{
+	max-width: 500px;
+	margin-left: 60px;
+	font-family: "Inter";
+	font-weight: 900;
+	font-size: 35px;
+	background-color: goldenrod;
+	border: 3px solid red;
+	border-radius: 5px;
+	line-height: 2;
+	padding-left: 10px;
+	box-shadow: 2px 5px 7px 6px green;
+	margin-bottom: 35px;
+}
+.list-bruce{
+	background-color: rgb(59, 128, 59);
+	padding-left: 50px;
+	border: 1px dashed violet;
+	max-width: 450px;
+	box-shadow:inset 3px 4px 5px 4px rgb(0, 45, 128);
+}
+.life-about{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 20px;
+line-height: 1.5;
+max-width: 300px;
+max-height: 400px;
+overflow: auto;
+background-color: brown;
+color: aquamarine;
+opacity: 0.8;
+margin: 0 auto;
+margin-bottom: 50px;
+padding: 10px;
+outline: 2px dotted blue;
+}
+.life-about h2{text-align: center;
+	font-size: 25px;
+	color: goldenrod;
+	margin-bottom: 10px;
+}
+.life-about h2+p+p{
+	background-color: aqua;
+	color: wheat;
+	font-size: 16px;
+	max-height: 100px;
+	overflow: scroll;
+}
+.job{font-size: 23px;
+	font-weight: 700;
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	border: 2px dotted black;
+	padding: 15px;
+	background-color: rgb(209, 148, 209);
+	color: rgb(10, 104, 72);
+	line-height: 1.3;
+	box-shadow: -3px -5px 8px 7px rebeccapurple, 3px 5px 8px 7px rebeccapurple;
+}
+.private{
+	max-width: 300px;
+	max-height: 100px;
+	overflow: auto;
+	margin: 0 30px 40px auto;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: green;
+	color: white;
+	box-shadow: inset -5px -4px 5px 3px goldenrod;
+	line-height: 1.8;
+	text-transform: uppercase;
+}
+.private h2{outline: 1px dashed wheat;
+	color: brown;
+	text-align: right;
+}
+.award{
+	font-family:"Inter" ;
+	font-weight: 500;
+	font-size: 28px;
+	margin: 0 100px 45px 50px;
+	background-color: darkblue;
+	color: whitesmoke;
+	padding: 20px;
+}
+.award h2 {max-width: 100px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-weight: 900;
+	font-size: 30px;
+}
+.award img{
+	margin-left: 100px;
+	margin-bottom: 25px;
+}
+.list-award{
+	padding-left: 10px;
+}
+.list-award li{
+	font-size: 20px;
+	border: 2px solid gold;
+	opacity: 0.6;
+	margin-bottom: 5px;
+	box-shadow: 5px 10px 5px 6px red;
+}
+.last-item{
+	margin-bottom: 0;
+}
+ .link{font-family: "Raleway";
+	font-weight: 900;
+	font-size: 40px;
+	display: block;
+	max-width: 250px;
+	margin: 0 auto;
+	border: 1px solid red;
+	background-color: red;
+	color: aquamarine;
+	text-align: center;
+}
